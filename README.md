@@ -16,7 +16,12 @@ python main.py --domain DOMAIN --method METHOD --task TASK_ID
 ```[barman, blocksworld, floortile, grippers, storage, termes, tyreworld]```
 
 `METHOD` is selected from
-```[llm_ic_pddl_planner, llm_pddl_planner, llm_planner, llm_ic_planner]```
+```[1, 2, 3, 4]```
+where
+* `1`: llm_ic_pddl_planner
+* `2`: llm_pddl_planner
+* `3`: llm_planner
+* `4`: llm_ic_planner
 
 Alternatively, you can just use:
 ```
